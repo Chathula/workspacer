@@ -15,11 +15,11 @@ func main() {
 
 	cliApp.Name = "workspacer"
 	cliApp.Description = "Setup DEV workspace without hassle"
-	cliApp.Usage = "Automated DEV Workspace setupper"
+	cliApp.Usage = "Automated DEV Workspace setup"
 	cliApp.Version = app.GetVersion()
 	cliApp.Authors = []*cli.Author{
 		{
-			Name:  "Chathula",
+			Name:  "Chathula Sampath",
 			Email: "schathula@gmail.com",
 		},
 	}
@@ -56,8 +56,8 @@ VERSION:
     {{.Version}}
     {{end}}
 EXAMPLES:
-    {{.Name}} --file <file.yml>
-    {{.Name}} --gist <gist-url>
+    {{.Name}} install <file.yml>
+    {{.Name}} install <gist-url>
 SOURCE CODE:
     https://github.com/chathula/workspacer
 `

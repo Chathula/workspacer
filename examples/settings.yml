@@ -1,5 +1,5 @@
 version: 1
-home: /home/chathula/Desktop # Default path will be $HOME/Desktop
+home: /Users/chathula/Desktop # Default path will be $HOME/Desktop
 git:
   path: code # actual path = home/base path + this path
   repositories:
