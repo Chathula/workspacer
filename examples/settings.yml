@@ -1,5 +1,6 @@
 version: 1
 home: /home/chathula/Desktop # Default path will be $HOME/Desktop
+
 git:
   path: code # actual path = home/base path + this path
   repositories:
@@ -7,3 +8,10 @@ git:
       name: personal-blog
     - url: https://github.com/Chathula/swr-vue
       delete: true
+
+envs:
+  - key: ENV_KEY
+    value: env-value
+  - key: ENV_KEY2
+    value: env-value2
+    delete: true
